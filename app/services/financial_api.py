@@ -1,6 +1,6 @@
 import requests
 
-ALPHA_VANTAGE_API_KEY = 'YOUR_ALPHA_VANTAGE_API_KEY'
+ALPHA_VANTAGE_API_KEY = 'GTVNUR28478F1SZ8'
 
 def get_stock_price(symbol):
     url = f'https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol={symbol}&apikey={ALPHA_VANTAGE_API_KEY}'
